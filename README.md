@@ -71,24 +71,24 @@
 
 1. Создать Deployment приложения nginx и обеспечить старт контейнера только после того, как будет запущен сервис этого приложения.
 
-[new_nginx.yaml]()
+[new_nginx.yaml](https://github.com/smabramov/K8s-1-3/blob/261cab8867a743f5d688a885f3fb03cbbbd7978a/pod_yaml/new_nginx.yaml)
 
 
 2. Убедиться, что nginx не стартует. В качестве Init-контейнера взять busybox.
 
-![k8]()
+![k8](https://github.com/smabramov/K8s-1-3/blob/2c278d00b4b0422d423623cf26626055a9a81965/png/k8.png)
 
 3. Создать и запустить Service. Убедиться, что Init запустился.
 
-[svc_n.yaml]()
+[svc_n.yaml](https://github.com/smabramov/K8s-1-3/blob/2c278d00b4b0422d423623cf26626055a9a81965/pod_yaml/svc_n.yaml)
 
-![k9]()
+![k9](https://github.com/smabramov/K8s-1-3/blob/2c278d00b4b0422d423623cf26626055a9a81965/png/k9.png)
 
 4. Продемонстрировать состояние пода до и после запуска сервиса.
 
-![k8]()
+![k8](https://github.com/smabramov/K8s-1-3/blob/2c278d00b4b0422d423623cf26626055a9a81965/png/k8.png)
 
-![k10]()
+![k10](https://github.com/smabramov/K8s-1-3/blob/2c278d00b4b0422d423623cf26626055a9a81965/png/k10.png)
 
 ------
 
